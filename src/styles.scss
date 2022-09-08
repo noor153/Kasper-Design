@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+.des{
+    border: 2px solid black;
+    // width: 25%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    // background-color: black;
+    // margin: auto;
+    position: relative;
+    // background-color: aqua;
+
+}
+
+.des::before{
+
+    content: "";
+    width: 350%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    // bottom: 0px;
+    top: 45%;
+    left: 100%;
+
+
+}
+
+.des::after{
+    content: "";
+    width: 350%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    // bottom: 0px;
+    top: 45%;
+    right: 100%;
+}

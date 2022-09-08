@@ -1,0 +1,47 @@
+*{
+    font-weight: 400;
+}
+
+p{
+    color: gray;
+}
+
+.child1{
+    border-bottom: 1px #33b5e5 solid;
+    border-top: 1px #33b5e5 solid;
+}
+
+.child2{
+    border-bottom: 1px #33b5e5 solid;
+}
+.child{
+    background-color: rgb(252, 252, 252);
+}
+button{
+    border-radius: 0;
+}
+
+.text{
+    // background-color: teal;
+    border-bottom: 1px #33b5e5 solid;
+
+}
+
+h1 ,span{
+    font-weight: 700;
+
+}
+h1{
+    font-size: 60px;
+}
+
+.w{
+    width: 55%;
+}
+
+@media screen and (max-width:767px) {
+    .w{
+        width: 35%;
+    }
+    
+}

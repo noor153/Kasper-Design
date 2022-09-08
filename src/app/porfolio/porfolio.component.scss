@@ -1,0 +1,48 @@
+h2{
+    font-weight: 400;
+}
+
+.child {
+    padding: 0%;
+    margin: 0;
+    overflow:hidden;
+    position: relative;
+    transition: all 0.5s ease ;
+}
+
+.child-content{
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: -100%;
+    transition: all 0.5s ease ;
+
+}
+
+.child img{
+    transition: all 0.5s ease ;
+
+}
+
+.btn{
+    --bs-btn-border-radius: 0rem;
+
+}
+
+p{
+    color: gray;
+}
+
+// .child-content{
+//     transition: all 3s ease ;
+// }
+
+.child:hover .child-content{
+    bottom: 0%;
+}
+
+.child:hover img{
+    transform: rotate(3deg) scale(1.1,1.1) ;
+
+}
+

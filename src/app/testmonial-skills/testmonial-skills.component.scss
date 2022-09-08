@@ -1,0 +1,140 @@
+p{
+    color: gray;
+}
+
+
+.cont{
+    border-bottom: 1px grey solid;
+}
+
+h6{
+    font-weight: 400;
+}
+
+.design{
+    width: 100%;
+    height: 30px;
+    // background-color:;
+    position: relative;
+    background-color: rgb(221,218,220);
+}
+
+.des-child{
+    position: relative;
+    background-color: rgb(22,200,250);
+    height: inherit;
+    width: 90%;
+}
+.des-child::after{
+    content: "90%";
+    color: white;
+    text-align: center;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: black;
+    top: -42px;
+    right: -20px;
+    position: absolute;
+
+}
+.des-child::before{
+    content: "";
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    // border-radius: 3px;
+    background-color: black;
+    top: -30px;
+    right: -10px;
+    rotate: 45deg;
+    position: absolute;
+
+}
+
+.des-child1{
+    position: relative;
+    background-color: rgb(22,200,250);
+    height: inherit;
+
+    width: 85%;
+}
+.des-child2{
+    position: relative;
+    background-color: rgb(22,200,250);
+    height: inherit;
+    width: 80%;
+}
+
+
+.des-child{
+    position: relative;
+    background-color: rgb(22,200,250);
+    height: inherit;
+    width: 90%;
+}
+.des-child1::after{
+    content: "85%";
+    color: white;
+    text-align: center;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: black;
+    top: -42px;
+    right: -20px;
+    position: absolute;
+
+}
+.des-child1::before{
+    content: "";
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    // border-radius: 3px;
+    background-color: black;
+    top: -30px;
+    right: -10px;
+    rotate: 45deg;
+    position: absolute;
+}
+
+.des-child2::after{
+    content: "80%";
+    color: white;
+    text-align: center;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: black;
+    top: -42px;
+    right: -20px;
+    position: absolute;
+
+}
+.des-child2::before{
+    content: "";
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    // border-radius: 3px;
+    background-color: black;
+    top: -30px;
+    right: -10px;
+    rotate: 45deg;
+    position: absolute;
+}
+
+.desi{
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border: 1px gray solid;
+    border-radius: 40px;
+}
